@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+}
+
+.column {
+  width: 30%;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 720px) {
+  .container {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .column {
+    width: 100%;
+    float: left;
+  }
+}
